@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My CS50 from edX</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="nav">
+  <ul>
+    <li><a class="menu" href="index.html">Home</a></li>
+    <li><a class="menu" href="c.html">C</a></li>
+    <li><a class="menu" href="html.html">HTML</a></li>
+    <li><a class="menu" href="css.html">CSS</a></li>
+    <li><a class="menu" href="jv.html">JavaScript</a></li>
+    <li><a class="menu" href="python.html">Python</a></li>
+    <li><a class="menu" href="sql.html">SQL</a></li>
+  </ul>
+</div>
+
+<div class="jumbotron">
+  <img class="logo" src="img/sql.svg" alt="SQL logo">
+  <h1>SQL</h1>
+  <p>CS50's Introduction to Computer Science</p>
+</div>
+
+<div class="container">
+  <p class="text"><strong>SQL (Structured Query Language)</strong> is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data where there are relations between different entities/variables of the data. SQL offers two main advantages over older read/write APIs like ISAM or VSAM: first, it introduced the concept of accessing many records with one single command; and second, it eliminates the need to specify how to reach a record, e.g. with or without an index.</p>
+  <p class="text">Originally based upon relational algebra and tuple relational calculus, SQL consists of many types of statements, which may be informally classed as sublanguages, commonly: a data query language (DQL), a data definition language (DDL), a data control language (DCL), and a data manipulation language (DML). The scope of SQL includes data query, data manipulation (insert, update and delete), data definition (schema creation and modification), and data access control. Although SQL is often described as, and to a great extent is, a declarative language (4GL), it also includes procedural elements.</p>
+  <p class="text">SQL was one of the first commercial languages for Edgar F. Codd's relational model. The model was described in his influential 1970 paper, "A Relational Model of Data for Large Shared Data Banks". Despite not entirely adhering to the relational model as described by Codd, it became the most widely used database language.</p>
+  <p class="text">SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987. Since then, the standard has been revised to include a larger set of features. Despite the existence of such standards, most SQL code is not completely portable among different database systems without adjustments.</p>
+  <h4>Design</h4>
+  <p class="text">SQL deviates in several ways from its theoretical foundation, the relational model and its tuple calculus. In that model, a table is a set of tuples, while in SQL, tables and query results are lists of rows: the same row may occur multiple times, and the order of rows can be employed in queries (e.g. in the LIMIT clause).</p>
+  <p class="text">Critics argue that SQL should be replaced with a language that strictly returns to the original foundation: for example, see The Third Manifesto. However, no known proof exists that such uniqueness cannot be added to SQL itself, or at least a variation of SQL. In other words, it's quite possible that SQL can be "fixed" or at least improved in this regard such that the industry may not have to switch to a completely different query language to obtain uniqueness. Debate on this remains open.</p>
+
+  <hr>
+  <footer>
+    <p>Read more on the link below:</p>
+    <p>&#169; <a href="https://en.wikipedia.org/wiki/SQL">Wikipedia</a></p>
+  </footer>
+</div>
