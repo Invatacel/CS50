@@ -4,26 +4,34 @@
   <title>My CS50 from edX</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
-<div class="nav">
-  <ul>
-    <li><a class="menu" href="index.html">Home</a></li>
-    <li><a class="menu" href="c.html">C</a></li>
-    <li><a class="menu" href="html.html">HTML</a></li>
-    <li><a class="menu" href="css.html">CSS</a></li>
-    <li><a class="menu" href="jv.html">JavaScript</a></li>
-    <li><a class="menu" href="python.html">Python</a></li>
-    <li><a class="menu" href="sql.html">SQL</a></li>
-  </ul>
-</div>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark"> <!-- navigation bar -->
+
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="c.html">C</a></li>
+        <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+        <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+        <li class="nav-item"><a class="nav-link" href="jv.html">JavaScript</a></li>
+        <li class="nav-item"><a class="nav-link" href="python.html">Python</a></li>
+        <li class="nav-item"><a class="nav-link" href="sql.html">SQL</a></li>
+      <ul>
+    </div>
+
+</nav>
 
 <div class="jumbotron">
   <img class="logo" src="img/html.svg" alt="HTML5 logo">
@@ -37,8 +45,24 @@
   <p class="text">Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
   <p class="text">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as &#60;img /&#62; and &#60;input /&#62; directly introduce content into the page. Other tags such as &#60;p&#62; surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.</p>
   <p class="text">HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.</p>
+
   <h4>Development</h4>
   <p class="text">In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes from 1990 he listed "some of the many areas in which hypertext is used" and put an encyclopedia first.</p>
+  <h4>HTML versions timeline</h4>
+  <ul>
+    <li>November 24, 1995: HTML 2.0 was published as RFC 1866</li>
+    <li>January 14, 1997: HTML 3.2 was published as a W3C Recommendation. It was the first version developed and standardized exclusively by the W3C</li>
+    <li>December 18, 1997: HTML 4.0[22] was published as a W3C Recommendation. It offers three variations:</li>
+      <ul>
+        <li>Strict, in which deprecated elements are forbidden</li>
+        <li>Transitional, in which deprecated elements are allowed</li>
+        <li>Frameset, in which mostly only frame related elements are allowed.</li>
+      </ul>
+    <li>April 24, 1998: HTML 4.0 was reissued with minor edits without incrementing the version number.</li>
+    <li>October 28, 2014: HTML5 was published as a W3C Recommendation</li>
+    <li>November 1, 2016: HTML 5.1 was published as a W3C Recommendation.</li>
+    <li>December 14, 2017: HTML 5.2 was published as a W3C Recommendation.</li>
+
 
   <hr>
   <p>Read more on the link below:</p>

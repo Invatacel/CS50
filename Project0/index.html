@@ -4,27 +4,34 @@
   <title>My CS50 from edX</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
-<div class="navbar" id="myNavbar"> <!-- navigation bar -->
-  <ul>
-    <li><a class="menu" href="index.html">Home</a></li>
-    <li><a class="menu" href="c.html">C</a></li>
-    <li><a class="menu" href="html.html">HTML</a></li>
-    <li><a class="menu" href="css.html">CSS</a></li>
-    <li><a class="menu" href="jv.html">JavaScript</a></li>
-    <li><a class="menu" href="python.html">Python</a></li>
-    <li><a class="menu" href="sql.html">SQL</a></li>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-  </ul>
-</div>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark"> <!-- navigation bar -->
+
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="c.html">C</a></li>
+        <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+        <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+        <li class="nav-item"><a class="nav-link" href="jv.html">JavaScript</a></li>
+        <li class="nav-item"><a class="nav-link" href="python.html">Python</a></li>
+        <li class="nav-item"><a class="nav-link" href="sql.html">SQL</a></li>
+      <ul>
+    </div>
+
+</nav>
 
 <div class="jumbotron">
   <h1>HarvardX CS50</h1>
@@ -77,15 +84,14 @@
     </div>
   </div>
 </div>
-<script>
-  function myFunction() {
-    var x = document.getElementById("myNavbar");
-    if (x.className === "navbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "navbar";
-    }
-  }
-</script>
+<hr>
+
+<footer id="footer">
+  <p>This is my Project0 for <a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_blank">CS50's Web Programming with Python and JavaScript</a>.<br>
+  All content is from <a href="https://en.wikipedia.org" target="_blank">Wikipedia</a>.<br>
+  March 2019</p>
+
+</footer>
+
 </body>
 </html>
